@@ -1,0 +1,36 @@
+var _circle, _path;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconFreeEmblem(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 10,
+    cy: 10,
+    r: 10,
+    fill: "#FF6060"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6.66675 10.001V8.36373C6.66675 6.25078 8.12317 5.39896 9.90323 6.4499L11.2841 7.26853L12.665 8.08717C14.4451 9.13811 14.4451 10.8639 12.665 11.9148L11.2841 12.7334L9.90323 13.5521C8.12317 14.603 6.66675 13.7401 6.66675 11.6383V10.001Z",
+    stroke: "#121212",
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconFreeEmblem);
+export default __webpack_public_path__ + "static/media/icon-free-emblem.2f0d02f8bc4baa7af806adedab19ae12.svg";
+export { ForwardRef as ReactComponent };

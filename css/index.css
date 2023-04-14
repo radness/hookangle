@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --toastify-font-family: 'Noto Sans KR', 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --toastify-color-info: #a269ff;
+    --toastify-color-success: #00ffc2;
+    --toastify-color-error: #fe595e;
+  }
+
+  html {
+    font-family: 'Noto Sans KR', 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  input {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-3 py-[7px] bg-dark-800 text-white rounded-md shadow-md focus:outline-none;
+  }
+  .confirm-btn {
+    @apply text-xs font-normal px-[30px] py-[10px] text-dark-900 bg-primary-200 rounded-md;
+  }
+  .cancel-btn {
+    @apply text-xs font-normal px-[30px] py-[10px] text-primary-200 bg-dark-900 rounded-md border border-primary-200;
+  }
+  .v-scrollbar {
+    @apply scrollbar-thin scrollbar-thumb-dark-500 scrollbar-track-dark-850 scrollbar-thumb-rounded-md;
+  }
+  .tab {
+    @apply text-dark-600 border-b border-b-primary-250;
+  }
+  .tab.active-scroll-spy {
+    @apply text-primary-200 border-b border-b-primary-200;
+  }
+}
+
+.form-checkbox[type='checkbox']:checked {
+  background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="rgb(50,50,50)" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
+}
+
+.Toastify__toast-container {
+  font-size: 14px;
+}
+.Toastify__toast-theme--dark {
+  border: 1px solid rgb(99 99 99);
+}

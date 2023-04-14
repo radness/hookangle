@@ -1,0 +1,28 @@
+var _path;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconShowShortsWhite(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 15,
+    height: 19,
+    viewBox: "0 0 15 19",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6.09449 12.4935V7.45685L10.7794 9.97515L6.09449 12.4935ZM12.9064 7.90349C12.1849 7.5994 11.782 7.42834 11.782 7.42834L13.1219 6.70611C14.846 5.79382 15.4925 3.63663 14.5836 1.89758C13.6747 0.158527 11.5478 -0.506685 9.83308 0.415108L1.87805 4.69147C0.669335 5.33768 -0.0615155 6.63009 0.00407362 8.00803C0.0696628 9.35746 0.875472 10.5453 2.08419 11.0965C2.1123 11.106 3.20857 11.5717 3.20857 11.5717L1.87805 12.2844C0.163362 13.2062 -0.49253 15.3634 0.416348 17.1024C1.32523 18.8415 3.45219 19.5067 5.16688 18.5849L13.1313 14.3085C14.34 13.6623 15.0615 12.3699 14.9959 10.992C14.9303 9.64255 14.1151 8.44516 12.9064 7.90349ZM12.6909 13.4723L4.72649 17.7486C3.47093 18.4233 1.90616 17.9387 1.2409 16.6653C0.575636 15.3919 1.0535 13.8049 2.30906 13.1302L4.22052 12.1038V10.954L3.574 10.6879L2.53394 10.2507C1.60632 9.86112 0.987911 8.96783 0.941061 7.96051C0.894212 6.95319 1.4283 6.00289 2.30906 5.52774L10.2735 1.25137C11.529 0.57666 13.0938 1.06131 13.7591 2.33472C14.4243 3.60813 13.9465 5.19513 12.6909 5.86985L10.7794 6.89617V8.04604L12.466 8.74926C13.3936 9.13889 14.012 10.0322 14.0589 11.0395C14.1057 12.0468 13.5717 12.9971 12.6909 13.4723Z",
+    fill: "#fff"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconShowShortsWhite);
+export default __webpack_public_path__ + "static/media/icon-show-shorts-white.0e4fe70ee6d91685391f49affce6997d.svg";
+export { ForwardRef as ReactComponent };

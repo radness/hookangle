@@ -1,0 +1,35 @@
+var _circle, _path;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconDiamondEmblem(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 10,
+    cy: 10,
+    r: 10,
+    fill: "#BE97FF"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M6.93433 5.3335C6.60609 5.3335 6.29957 5.49471 6.11749 5.76311L4.104 8.73125C3.98074 8.91296 3.966 9.14565 4.06538 9.34098C5.16721 11.5066 6.69844 13.434 8.56907 15.0097L9.55119 15.837C9.80945 16.0545 10.1905 16.0546 10.4488 15.837L11.4309 15.0097C13.3016 13.434 14.8328 11.5066 15.9346 9.34098C16.034 9.14565 16.0193 8.91296 15.896 8.73125L13.8825 5.76311C13.7004 5.49471 13.3939 5.3335 13.0657 5.3335H6.93433ZM6.81764 6.22183C6.84365 6.18349 6.88744 6.16045 6.93433 6.16045H8.24693L7.17258 8.69441C7.14783 8.75278 7.12915 8.81298 7.11657 8.87411C6.72173 8.84523 6.32723 8.81041 5.9332 8.76965L5.14462 8.68807L6.81764 6.22183ZM5.10748 9.51576C6.11355 11.3295 7.44204 12.9533 9.0313 14.3094L7.27797 9.71454C6.79983 9.68224 6.32213 9.64141 5.84511 9.59206L5.10748 9.51576ZM8.19633 9.76608L10 14.4929L11.8037 9.76608C10.6018 9.81981 9.39816 9.81981 8.19633 9.76608ZM12.722 9.71454L10.9687 14.3094C12.558 12.9533 13.8865 11.3295 14.8925 9.51576L14.1549 9.59206C13.6779 9.64141 13.2002 9.68224 12.722 9.71454ZM14.8554 8.68807L14.0668 8.76965C13.6728 8.81041 13.2783 8.84523 12.8834 8.87411C12.8708 8.81298 12.8522 8.75278 12.8274 8.69441L11.7531 6.16045H13.0657C13.1126 6.16045 13.1563 6.18349 13.1824 6.22183L14.8554 8.68807ZM12.0149 8.92804C10.6725 8.99655 9.32747 8.99655 7.98512 8.92804L9.15852 6.16045H10.8415L12.0149 8.92804Z",
+    fill: "#121212"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconDiamondEmblem);
+export default __webpack_public_path__ + "static/media/icon-diamond-emblem.847e751c0df74d5aac944411c6b61dd7.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,124 @@
+var _defs, _g, _g2;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconSearchGb(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "\\uB808\\uC774\\uC5B4_1",
+    "data-name": "\\uB808\\uC774\\uC5B4 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 22.68 22.68",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{clip-path:url(#clip-path-2);}.cls-4{fill:#1a237b;}.cls-5{clip-path:url(#clip-path-3);}.cls-6{clip-path:url(#clip-path-4);}.cls-7{fill:#fff;}.cls-8{fill:#ea0020;}.cls-9{clip-path:url(#clip-path-5);}"), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: -17.11,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-2"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: -34.25,
+    y: 1.34,
+    width: 34.29,
+    height: 20
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-3"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 11.34,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-4"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: -5.81,
+    y: 1.34,
+    width: 34.29,
+    height: 20
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-5"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 40.38,
+    cy: 11.34,
+    r: 9.92
+  })))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    className: "cls-2"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "NEW_ZEALAND",
+    "data-name": "NEW ZEALAND"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-3"
+  }, /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "-17.1 1.34 -17.1 1.98 -17.1 2.19 -17.1 2.29 -20.91 4.2 -17.1 4.2 -17.1 4.77 -17.1 5.63 -17.1 6.48 -17.1 7.05 -20.91 7.05 -17.1 8.96 -17.1 9.28 -17.1 9.91 -17.1 9.97 -18.27 9.97 -18.71 9.97 -18.91 9.97 -24.25 7.3 -24.25 9.97 -24.82 9.97 -25.68 9.97 -26.53 9.97 -27.11 9.97 -27.11 7.3 -32.45 9.97 -33.08 9.97 -34.25 9.97 -34.25 21.34 0.04 21.34 0.04 1.34 -17.1 1.34"
+  }))))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", {
+    className: "cls-5"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "UNITED_KINGDOM",
+    "data-name": "UNITED KINGDOM"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-6"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-7",
+    x: -5.81,
+    y: 1.34,
+    width: 34.29,
+    height: 20
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-8",
+    points: "17.15 8.57 28.48 2.23 28.48 1.34 27.7 1.34 14.78 8.57 17.15 8.57"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-8",
+    points: "16.62 14.51 28.48 21.15 28.48 19.82 18.99 14.51 16.62 14.51"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-8",
+    points: "-5.8 2.86 4.34 8.57 6.71 8.57 -5.8 1.53 -5.8 2.86"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-8",
+    points: "6.18 14.51 -5.8 21.22 -5.8 21.34 -3.64 21.34 8.55 14.51 6.18 14.51"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "26.14 1.34 14.13 1.34 14.13 8.06 26.14 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "8.83 1.34 -3.13 1.34 8.83 8.06 8.83 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "28.48 8.57 28.48 3.98 20.34 8.57 28.48 8.57"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "28.48 19.05 28.48 14.51 20.34 14.51 28.48 19.05"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "-2.45 21.34 8.83 21.34 8.83 15.02 -2.45 21.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "14.13 21.34 25.45 21.34 14.13 15.02 14.13 21.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "-5.8 14.51 -5.8 19.25 2.62 14.51 -5.8 14.51"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "-5.8 8.57 2.62 8.57 -5.8 3.82 -5.8 8.57"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-8",
+    points: "9.89 1.34 9.89 9.76 -5.8 9.76 -5.8 13.32 9.89 13.32 9.89 21.34 13.07 21.34 13.07 13.32 28.48 13.32 28.48 9.76 13.07 9.76 13.07 1.34 9.89 1.34"
+  }))))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconSearchGb);
+export default __webpack_public_path__ + "static/media/icon-search-gb.1c36291992ead05e414e3ff8ad077109.svg";
+export { ForwardRef as ReactComponent };

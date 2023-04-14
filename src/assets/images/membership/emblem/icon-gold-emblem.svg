@@ -1,0 +1,64 @@
+var _circle, _path, _path2, _path3, _path4, _path5, _path6, _path7;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconGoldEmblem(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 10,
+    cy: 10,
+    r: 10,
+    fill: "#F3C278"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M10.0918 13.417V14.7003",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M7.03613 16.7782H13.1472V16.167C13.1472 15.4948 12.5972 14.9448 11.925 14.9448H8.25835C7.58613 14.9448 7.03613 15.4948 7.03613 16.167V16.7782V16.7782Z",
+    stroke: "#121212",
+    strokeMiterlimit: 10
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M6.42505 16.7778H13.7584",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M9.99995 13.1112C7.63495 13.1112 5.72217 11.1984 5.72217 8.83344V7.00011C5.72217 5.64955 6.81606 4.55566 8.16661 4.55566H11.8333C13.1838 4.55566 14.2777 5.64955 14.2777 7.00011V8.83344C14.2777 11.1984 12.3649 13.1112 9.99995 13.1112Z",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M10 6.2666L10.6799 7.71467L12.2 7.94936L11.1 9.07589L11.3608 10.6666L10.0014 9.9148L8.6403 10.6661L8.90109 9.07537L7.80005 7.94832L9.32018 7.71362L10 6.2666Z",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    d: "M6.00969 10.4528C5.55135 10.3061 5.14802 10.0373 4.83024 9.71948C4.28024 9.10837 3.91357 8.37503 3.91357 7.51948C3.91357 6.66392 4.5858 5.9917 5.44135 5.9917H5.83857C5.71635 6.27281 5.65524 6.58448 5.65524 6.90837V8.7417C5.65524 9.35281 5.78357 9.92725 6.00969 10.4528Z",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path7 || (_path7 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.9907 10.4528C14.4491 10.3061 14.8524 10.0373 15.1702 9.71948C15.7202 9.10837 16.0868 8.37503 16.0868 7.51948C16.0868 6.66392 15.4146 5.9917 14.5591 5.9917H14.1618C14.2841 6.27281 14.3452 6.58448 14.3452 6.90837V8.7417C14.3452 9.35281 14.2168 9.92725 13.9907 10.4528Z",
+    stroke: "#121212",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconGoldEmblem);
+export default __webpack_public_path__ + "static/media/icon-gold-emblem.4a55d4458bacc3b6d7b2cbb18c112b38.svg";
+export { ForwardRef as ReactComponent };

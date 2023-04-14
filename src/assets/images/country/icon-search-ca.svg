@@ -1,0 +1,122 @@
+var _defs, _g, _g2;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconSearchCa(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "\\uB808\\uC774\\uC5B4_1",
+    "data-name": "\\uB808\\uC774\\uC5B4 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 22.68 22.68",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{clip-path:url(#clip-path-2);}.cls-4{fill:#ea0020;}.cls-5{fill:#fff;}.cls-6{clip-path:url(#clip-path-3);}.cls-7{clip-path:url(#clip-path-4);}.cls-8{clip-path:url(#clip-path-5);}.cls-9{fill:#180087;}"), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 11.34,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-2"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: -0.03,
+    y: -0.14,
+    width: 22.73,
+    height: 22.96
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-3"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: -0.03,
+    y: 1.42,
+    width: 22.73,
+    height: 19.84
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-4"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 39.78,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-5"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: 22.64,
+    y: 1.34,
+    width: 34.28,
+    height: 20
+  })))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    className: "cls-2"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "CANADA"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-3"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-4",
+    x: -0.03,
+    y: 2.49,
+    width: 5.35,
+    height: 17.7
+  }), /*#__PURE__*/React.createElement("rect", {
+    className: "cls-4",
+    x: 17.36,
+    y: 2.49,
+    width: 5.35,
+    height: 17.7
+  }), /*#__PURE__*/React.createElement("rect", {
+    className: "cls-5",
+    x: 5.32,
+    y: -3.18,
+    width: 12.04,
+    height: 29.04
+  }), /*#__PURE__*/React.createElement("g", {
+    className: "cls-6"
+  }, /*#__PURE__*/React.createElement("path", {
+    className: "cls-4",
+    d: "M11.34,6.43,10.55,8c-.09.17-.25.15-.41.06l-.57-.31L10,10.06c.09.43-.19.43-.34.25l-1-1.16-.16.58a.19.19,0,0,1-.23.14L7,9.6l.33,1.25c.08.28.13.4-.07.47l-.45.22L9,13.37a.3.3,0,0,1,.1.31l-.19.65,2.16-.26c.07,0,.18.06.18.14l-.1,2.37h.36l-.05-2.37c0-.07.1-.14.16-.14l2.16.26-.19-.65a.32.32,0,0,1,.1-.31l2.17-1.83-.45-.22c-.2-.07-.14-.19-.07-.47l.33-1.25-1.26.27a.19.19,0,0,1-.22-.14L14,9.15l-1,1.16c-.14.18-.43.18-.34-.25l.43-2.35L12.54,8c-.16.09-.33.11-.41-.06Z"
+  })))))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", {
+    className: "cls-7"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "AUSTRALIA"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-8"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-9",
+    x: 22.64,
+    y: 1.34,
+    width: 34.28,
+    height: 20
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "30.16 1.34 30.16 4.35 22.64 4.35 22.64 7.35 30.16 7.35 30.16 10.36 33.16 10.36 33.16 7.35 40.68 7.35 40.68 4.35 33.16 4.35 33.16 1.34 30.16 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "22.64 1.34 22.64 2.35 38.66 10.36 40.68 10.36 40.68 9.35 24.66 1.34 22.64 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "38.66 1.34 22.64 9.35 22.64 10.36 24.66 10.36 40.68 2.35 40.68 1.34 38.66 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-4",
+    points: "30.76 1.34 30.76 4.95 22.64 4.95 22.64 6.75 30.76 6.75 30.76 10.36 32.56 10.36 32.56 6.75 40.68 6.75 40.68 4.95 32.56 4.95 32.56 1.34 30.76 1.34"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "cls-4",
+    d: "M22.64,1.34V2l4.67,2.34h1.34Zm16.69,0-6,3h1.35l6-3Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "cls-4",
+    d: "M28.65,7.35l-6,3H24l6-3Zm6,0,6,3V9.69L36,7.35Z"
+  }))))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconSearchCa);
+export default __webpack_public_path__ + "static/media/icon-search-ca.19492da525c3e004dccffd81ac8b5aef.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,131 @@
+var _defs, _g, _g2;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgIconSearchAu(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "\\uB808\\uC774\\uC5B4_1",
+    "data-name": "\\uB808\\uC774\\uC5B4 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 22.68 22.68",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{clip-path:url(#clip-path-2);}.cls-4{fill:#180087;}.cls-5{fill:#fff;}.cls-6{fill:#ea0020;}.cls-7{clip-path:url(#clip-path-3);}.cls-8{clip-path:url(#clip-path-4);}.cls-9{fill:#1a237b;}"), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 11.34,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-2"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: -5.8,
+    y: 1.34,
+    width: 34.28,
+    height: 20
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-3"
+  }, /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 39.78,
+    cy: 11.34,
+    r: 9.92
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path-4"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-1",
+    x: 22.64,
+    y: 1.34,
+    width: 34.29,
+    height: 20
+  })))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    className: "cls-2"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "AUSTRALIA"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-3"
+  }, /*#__PURE__*/React.createElement("rect", {
+    className: "cls-4",
+    x: -5.8,
+    y: 1.34,
+    width: 34.28,
+    height: 20
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "3.21 13.59 3.74 15.22 5.33 14.61 4.39 16.03 5.85 16.9 4.16 17.05 4.39 18.74 3.21 17.5 2.04 18.74 2.28 17.05 0.58 16.9 2.04 16.03 1.1 14.61 2.7 15.22 3.21 13.59"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "21.25 16.51 21.5 17.29 22.26 17 21.82 17.68 22.51 18.09 21.7 18.16 21.82 18.96 21.25 18.37 20.7 18.96 20.81 18.16 20 18.09 20.7 17.68 20.25 17 21.01 17.29 21.25 16.51"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "16.75 9.37 16.99 10.14 17.75 9.86 17.3 10.54 18 10.95 17.19 11.02 17.3 11.82 16.75 11.23 16.18 11.82 16.3 11.02 15.49 10.95 16.18 10.54 15.74 9.86 16.5 10.14 16.75 9.37"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "21.25 4.49 21.5 5.26 22.26 4.97 21.82 5.65 22.51 6.06 21.7 6.13 21.82 6.94 21.25 6.35 20.7 6.94 20.81 6.13 20 6.06 20.7 5.65 20.25 4.97 21.01 5.26 21.25 4.49"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "23.06 11.79 23.25 12.27 23.77 12.31 23.38 12.64 23.5 13.15 23.06 12.87 22.62 13.15 22.74 12.64 22.34 12.31 22.86 12.27 23.06 11.79"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "1.71 1.34 1.71 4.35 -5.8 4.35 -5.8 7.35 1.71 7.35 1.71 10.36 4.72 10.36 4.72 7.35 12.24 7.35 12.24 4.35 4.72 4.35 4.72 1.34 1.71 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "-5.8 1.34 -5.8 2.35 10.22 10.36 12.23 10.36 12.23 9.35 -3.79 1.34 -5.8 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "10.22 1.34 -5.8 9.35 -5.8 10.36 -3.79 10.36 12.23 2.35 12.23 1.34 10.22 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-6",
+    points: "2.31 1.34 2.31 4.95 -5.8 4.95 -5.8 6.75 2.31 6.75 2.31 10.36 4.12 10.36 4.12 6.75 12.23 6.75 12.23 4.95 4.12 4.95 4.12 1.34 2.31 1.34"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "cls-6",
+    d: "M-5.8,1.34V2l4.66,2.34H.21Zm16.69,0-6,3H6.22l6-3Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "cls-6",
+    d: "M.21,7.35l-6,3h1.34l6-3Zm6,0,6,3V9.69L7.57,7.35Z"
+  }))))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", {
+    className: "cls-7"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "NEW_ZEALAND",
+    "data-name": "NEW ZEALAND"
+  }, /*#__PURE__*/React.createElement("g", {
+    className: "cls-8"
+  }, /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-9",
+    points: "39.79 1.34 39.79 1.98 39.79 2.19 39.79 2.29 35.98 4.2 39.79 4.2 39.79 4.77 39.79 5.63 39.79 6.48 39.79 7.05 35.98 7.05 39.79 8.96 39.79 9.28 39.79 9.91 39.79 9.97 38.62 9.97 38.18 9.97 37.98 9.97 32.64 7.3 32.64 9.97 32.07 9.97 31.21 9.97 30.36 9.97 29.78 9.97 29.78 7.3 24.44 9.97 23.8 9.97 22.64 9.97 22.64 21.34 56.93 21.34 56.93 1.34 39.79 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-9",
+    points: "22.64 7.05 22.64 8.95 26.44 7.05 22.64 7.05"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-9",
+    points: "22.64 4.2 26.44 4.2 22.64 2.3 22.64 4.2"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "29.78 1.34 29.78 3.95 24.56 1.34 22.64 1.34 28.35 4.2 27.08 4.2 22.64 1.98 22.64 2.3 26.44 4.2 22.64 4.2 22.64 4.77 27.58 4.77 28.22 4.77 29.5 4.77 30.36 4.77 30.36 4.56 30.36 4.34 30.36 4.24 30.36 1.34 29.78 1.34"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-5",
+    points: "29.5 6.48 28.22 6.48 27.78 6.48 27.58 6.48 22.64 6.48 22.64 7.05 26.44 7.05 22.64 8.95 22.64 9.91 28.35 7.05 29.63 7.05 23.8 9.97 24.44 9.97 29.78 7.3 29.78 9.97 30.36 9.97 30.36 7.01 30.36 6.69 30.36 6.48 29.5 6.48"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-6",
+    points: "28.35 7.05 22.64 9.91 22.64 9.97 23.8 9.97 29.63 7.05 28.35 7.05"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-6",
+    points: "22.64 1.98 27.08 4.2 28.35 4.2 22.64 1.34 22.64 1.98"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    className: "cls-6",
+    points: "30.36 1.34 30.36 4.24 30.36 4.34 30.36 4.56 30.36 4.77 29.5 4.77 28.22 4.77 27.58 4.77 22.64 4.77 22.64 6.48 27.58 6.48 27.78 6.48 28.22 6.48 29.5 6.48 30.36 6.48 30.36 6.69 30.36 7.01 30.36 9.97 31.21 9.97 32.07 9.97 32.07 7.01 32.07 6.91 32.07 6.69 32.07 6.48 32.92 6.48 34.2 6.48 34.84 6.48 39.79 6.48 39.79 5.63 39.79 4.77 34.84 4.77 34.64 4.77 34.2 4.77 32.92 4.77 32.07 4.77 32.07 4.56 32.07 4.24 32.07 1.34 30.36 1.34"
+  }))))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconSearchAu);
+export default __webpack_public_path__ + "static/media/icon-search-au.51b2e4a5689b51f634fd7ab2a5f52bad.svg";
+export { ForwardRef as ReactComponent };
